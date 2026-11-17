@@ -42,9 +42,22 @@ What I shipped, where, and what it measured. Each project has the full story on 
 | [**HezzGo**](https://www.zaydbentalha.com/en/projects/hezzgo)<br><sub>Co-founder · 2026</sub> | Moving homes in Morocco | Moving marketplace · NestJS, Next.js, PostgreSQL | **2nd of 120 teams**, SNEE 2026 (as Rhel'Lia) |
 | [**NeroviaFlow**](https://www.zaydbentalha.com/en/projects/neroviaflow)<br><sub>2026</sub> | Resource loss in industrial piping | Non-invasive IoT monitoring with adaptive calibration for pressure variations · ESP32, Python | **1st place**, Hult Prize EMSI Casablanca · national round at UM6P |
 | [**LocalExperiences.tn**](https://www.zaydbentalha.com/en/projects/localexperiences)<br><sub>Ciné Nomade Nejma · Sousse · 2025</sub> | A travel-planning site for Tunisia | Built and launched end to end: WordPress, custom PHP plugins for dynamic listings, SEO | **Live** at [localexperiences.tn](https://localexperiences.tn) |
-| [**MapInter**](https://github.com/ZeeDrxx/mapinter)<br><sub>Open source · 2026</sub> | Getting lost at events | Live event maps opened from a QR code · Next.js, MapLibre, PostGIS | Born from the DigitalNow 6 map |
 
 Also building, privately: [**Shiffra**](https://www.zaydbentalha.com/en/projects/shiffra), an Arabic-first QR platform with an encoder written from ISO/IEC 18004, and [**E-Tajdid**](https://www.zaydbentalha.com/en/projects/e-tajdid), document-renewal reminders with sourced Moroccan procedures in Darija, Arabic and French.
+
+### Open source
+
+Built in the open, each with a README that explains the design, its tests, and a one-command local run.
+
+| Project | What it does | Built with |
+|---|---|---|
+| [**HomeTally**](https://github.com/ZeeDrxx/hometally) | Shared household spending: receipts read and categorised on the phone (71.3% accuracy on shops it never saw), synced live across the household | Expo · React Native · Convex · TensorFlow Lite · NumPy |
+| [**CostPulse**](https://github.com/ZeeDrxx/costpulse) | Price observatory: cleans messy price data, builds a city inflation index, forecasts three months ahead (MAPE 4.00% vs 6.73% naive, on synthetic data) | Django · Pandas · NumPy · scikit-learn · Docker · Power BI |
+| [**Wordbridge**](https://github.com/ZeeDrxx/wordbridge) | Community Darija dictionary: fuzzy search across Latin and Arabic spellings, moderated submissions | Next.js · Drizzle · PostgreSQL · MongoDB · Azure |
+| [**OrderLoop**](https://github.com/ZeeDrxx/orderloop) | Order-to-cash on SAP S/4HANA Cloud: incremental OData sync on an hourly Azure Functions timer, DSO and overdue views | SAP S/4HANA · Azure Functions · Next.js · PostgreSQL · Power BI |
+| [**MapInter**](https://github.com/ZeeDrxx/mapinter) | Live event maps opened from a QR code; born from the DigitalNow 6 map | Next.js · MapLibre · PostGIS |
+| [**CV Forge**](https://github.com/ZeeDrxx/cv-forge) | One YAML file → targeted LaTeX CVs in English and French | Python · LaTeX · Docker · Overleaf |
+| [**Auto MPG**](https://github.com/ZeeDrxx/auto-mpg) | Fuel-consumption analysis and random-forest prediction · [live](https://zeedrxx.github.io/auto-mpg/) | Streamlit · scikit-learn · Plotly |
 
 ### Stack
 
@@ -53,11 +66,12 @@ Also building, privately: [**Shiffra**](https://www.zaydbentalha.com/en/projects
 <sub>Pandas · NumPy · SQL · Power BI (learning)</sub>
 
 **Backend & databases**<br>
-<img src="https://skillicons.dev/icons?i=fastapi,nestjs,nodejs,postgres,prisma,supabase,mongodb&theme=dark" alt="FastAPI, NestJS, Node.js, PostgreSQL, Prisma, Supabase, MongoDB" height="44"><br>
+<img src="https://skillicons.dev/icons?i=fastapi,django,nestjs,nodejs,postgres,prisma,supabase,mongodb&theme=dark" alt="FastAPI, Django, NestJS, Node.js, PostgreSQL, Prisma, Supabase, MongoDB" height="44"><br>
 <sub>Drizzle · PostGIS</sub>
 
 **Interface**<br>
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, HTML, CSS" height="44">
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, HTML, CSS" height="44"><br>
+<sub>React Native (Expo) · Convex</sub>
 
 **Ship & run**<br>
 <img src="https://skillicons.dev/icons?i=docker,git,github,vercel,azure,wordpress,latex&theme=dark" alt="Docker, Git, GitHub, Vercel, Azure, WordPress, LaTeX" height="44"><br>
